@@ -7,6 +7,7 @@ $mysql_db = '';
 
 header('Content-type: application/json');
 header('Cache-Control: public, max-age=270, inmutable');
+header('Access-Control-Allow-Origin: *');
 
 $mysql = new mysqli($mysql_host, $mysql_user, $mysql_pass, $mysql_db);
 
