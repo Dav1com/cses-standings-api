@@ -2,11 +2,11 @@
 
 /* status */
 const ACCEPTED = "accepted";
-const ATTEMPED = "attemped";
+const ATTEMPTED = "attempted";
 const NOT_ATTEMPTED = "notAttempted";
 
 const STATUS_CLASSES = array(
     ACCEPTED => 'task-score icon full',
-    ATTEMPED => 'task-score icon zero',
+    ATTEMPTED => 'task-score icon zero',
     NOT_ATTEMPTED => 'task-score icon'
 );

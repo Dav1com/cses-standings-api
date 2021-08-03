@@ -24,7 +24,7 @@ function getUserTasks($userId) {
 
     $results = array(
         ACCEPTED => array(),
-        ATTEMPED => array(),
+        ATTEMPTED => array(),
         NOT_ATTEMPTED => array()
     );
 
